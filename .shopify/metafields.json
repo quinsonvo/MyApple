@@ -1,0 +1,86 @@
+{
+  "article": [],
+  "blog": [],
+  "brand": [],
+  "collection": [],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [],
+  "product": [
+    {
+      "key": "color-pattern",
+      "namespace": "shopify",
+      "name": "Color",
+      "description": "Defines the primary color or pattern, such as blue or striped",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "cosmetic-condition",
+      "namespace": "shopify",
+      "name": "Cosmetic condition",
+      "description": "Defines the wear and condition of electronics, e.g. new, opened-never used",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "data-network",
+      "namespace": "shopify",
+      "name": "Data network",
+      "description": "Specifies the data network compatibility of mobile devices, like LTE or 3G",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "operating-system",
+      "namespace": "shopify",
+      "name": "Operating system",
+      "description": "Defines the system software a device uses, such as iOS or ChromeOS",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "sim-card-capability",
+      "namespace": "shopify",
+      "name": "SIM card capability",
+      "description": "Indicates the type of SIM card configuration in mobile devices, e.g. dual, embedded",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "subscription-type",
+      "namespace": "shopify",
+      "name": "Subscription type",
+      "description": "Specifies the type of subscription, typically for mobile devices; e.g. pay as you go, pre-paid",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "display-resolution",
+      "namespace": "shopify",
+      "name": "Display resolution",
+      "description": "Defines resolution of a digital display, e.g. 1280 x 1024, full HD",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}
